@@ -1,11 +1,12 @@
 /* Footer Part Styles */
 .footer {
-    background: linear-gradient(to bottom, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('Resources/Rectangle 14.jpg');
+    background-image: url(Resources/Rectangle\ 14.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
     padding: 50px 50px 200px 50px;
     border-radius: 16px;
     font-family: "Merriweather", serif;
+    margin:0 auto;
 }
 .banner{
     align-items: center;
@@ -133,7 +134,7 @@ span{
     background-color: #d112121c;
     align-items: center;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
     
 }
 .subscribe-title{
@@ -149,8 +150,7 @@ span{
 .input{
     margin-top: 30px;
     text-align: center;
-    margin-right: 100px;
-
+     
 }
 .input-input{
     position: relative;
@@ -174,8 +174,9 @@ span{
 /* Soon Section */
 .soon{
     display: flex;
-    gap: 80px;
-    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   align-items: center;
 }
 .soon-column{
    width: 33%;
