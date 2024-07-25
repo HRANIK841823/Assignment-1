@@ -1,0 +1,217 @@
+/* Footer Part Styles */
+.footer {
+    background: linear-gradient(to bottom, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('Resources/Rectangle 14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 50px 200px 50px;
+    border-radius: 16px;
+    font-family: "Merriweather", serif;
+}
+.banner{
+    align-items: center;
+    margin-top: 170px;
+}
+.banner-des{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Main Section */
+main section{
+    margin-top: 130px;
+}
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Discount Section */
+.discount{
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+.discount-title{
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.discount-offer{
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+}
+.discount-des{
+    color:#070211;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.discount-img{
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+}
+/* Button */
+.btn-primary{
+    background-color:#FF0000;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Party Section */
+.party{
+    background-image:linear-gradient(to right,rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(Resources/Party.jpg);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    display: flex;
+    gap: 50px;
+    padding: 50px 150px;
+    align-items: center;
+}
+.party-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+}
+.party-des{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.party-img{
+    display: block;
+    margin-top: 100px;
+}
+/* Time section */
+.time{
+    background-color:rgba(235, 35, 35, 0.093);
+    padding: 100px;
+    text-align: center;
+}
+.time-title{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600 ;
+}
+span{
+    color: #FF0000;
+}
+/* Portfolio Section */
+.portfolio-title{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 10px;
+}
+.portfolio img{
+    margin: 6px;
+}
+.portfolio-des{
+    font-size: 20px;
+    color: #474747;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+/* Subscribe Section */
+.subscribe{
+    background-color: #d112121c;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    
+}
+.subscribe-title{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 10px;
+}
+.subscribe-des{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #0702116d;
+}
+.input{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.input-input{
+    position: relative;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 15px 35px;
+    font-size: 16px;
+}
+.input-button{
+    position: absolute;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px 35px;
+    font-size: 16px;
+    background-color: #FF0000;
+    color: white;
+
+}
+/* Soon Section */
+.soon{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.soon-column{
+   width: 33%;
+}
+.soon-msg{
+   color:#FF0000 ;
+   font-size: 24px; 
+   font-family: "Inter", sans-serif;
+   margin-bottom: 15px;
+}
+.soon-title{
+    font-size: 48px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.soon-des{
+    color: #0702117c;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.circular-portrait{
+    border: 8px solid  #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+    display: block;
+    margin-top: 0px;
+}
+.soon-year-title{
+    font-size: 48px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
+}
+.soon-year-des{
+    color: #0702117c;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
